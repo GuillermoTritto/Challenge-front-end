@@ -1,0 +1,221 @@
+header
+{
+    background-color: floralwhite;
+    padding: 20px 0;
+}
+
+.caja
+{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.imagen-caja
+{
+  width: 25px;
+  vertical-align: middle;
+  
+}
+
+.nombre-titulo
+{
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+nav
+{
+    position: absolute;
+    top: 25px; 
+    right: 0;
+    vertical-align: middle;
+}
+
+nav li
+{
+    display: inline;
+    margin: 0 0 0 15px;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+main
+{
+    width: 940px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+#acerca-de-mi
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.foto-perfil
+{
+    width: 15%;
+    float: right;
+    margin: 0 0;
+    padding: 0 0 ;
+    border-radius: 50%;
+}
+
+
+.titulo-principal
+{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    margin: 20px 0;
+}
+
+#acerca-de-mi p
+{
+    text-align: center;
+    font-size: 1e;
+    font-style: italic;
+}
+
+.btnCurriculo
+{
+    background-color: #007bff;
+    color: white;
+    margin: 1em 75%;
+    border: none;
+    padding: 3px 8px;
+}
+
+#hobbies
+{
+    background: #cccccc;
+    
+}
+
+.Titulo-hobbies
+{
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.Lista-Hobbies
+{
+    padding: 1.5em;
+}
+
+.Lista-Hobbies li
+{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 0.5%;
+    padding: 30px 1em;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: #f8f9fa;
+    
+}
+
+.Lista-Hobbies li:hover
+{
+    border-color:  #dc3545;
+    background: lightcyan;
+}
+
+.Lista-Hobbies li img
+{
+    width: 30%;
+    
+}
+
+.Lista-Hobbies li p
+{
+    font-style: italic;
+}
+
+.Lista-Hobbies li:hover img
+{
+    width: 35%;
+}
+
+.Lista-Hobbies li:hover p
+{
+    font-weight: bold;
+}
+
+#skills
+{
+    background-color: lightblue;
+    
+}
+
+.titulo-skills
+{
+    color: black;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.lista-skills
+{
+    padding: 1.5em;
+}
+
+.lista-skills li
+{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: 0 0.5%;
+    padding: 30px 1em;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: #f8f9fa;
+}
+
+.lista-skills li img
+{
+    width: 60%;
+    
+}
+
+.lista-skills li:hover
+{
+    border-color:  #dc3545;
+    background: lightcyan;
+}
+
+.lista-skills li:hover img
+{
+    width: 70%;
+}
+
+
+.pie
+{   
+    padding: 30px 0;
+    background: url(Imagenes/bg.jpg);
+    text-align: center;
+}
+
+
+
+.copyright
+{
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+}
+
+
