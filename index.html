@@ -6,6 +6,7 @@
         <title>Portfolio Guillermo Tritto</title>
         <link rel="Stylesheet" href="style.css">
         <link rel="Stylesheet" href="reset.css">
+        <link rel="stylesheet" href="css/formacion-academica.css">
     </head>
 
     <body>
@@ -18,7 +19,7 @@
                         <li><a href="#acerca-de-mi"> Sobre Mi </a></li>
                         <li><a href="#hobbies"> Hobbies </a></li>
                         <li><a href="#skills"> Skills </a></li>
-                        <li><a href="#formacion">Formación</a></li>
+                        <li><a href="#formacion-academica">Formación</a></li>
                         <li><a href="#proyectos"> Proyectos </a></li>
                         <li><a href="#contacto"> Contacto </a></li>
 
@@ -40,13 +41,14 @@
                     Actualmente trabajo fuera del area de Sitemas, sino que lo hago en la parte administrativa de una empresa de transportes. 
                 </p>    
                 <p>El principal motivo por el que ingrese en el proyecto de Oracle One es poder capacitarme para lograr conseguir un puesto en una empresa de desarrollo de Sistemas.</p>
-                <form action="https://drive.google.com/file/d/1bU7MaKPBK5jxUJAy-1UBgChbSa8Xwm_f/view?usp=sharing" target="_blank">
-                    <input type="submit" value="CV" class="btnCurriculo">
-                 </form>
+                <ul class="social">
+                    <li><a href="https://github.com/GuillermoTritto" target="_blank">Github</a></li>
+                    <li><a href="https://drive.google.com/file/d/1bU7MaKPBK5jxUJAy-1UBgChbSa8Xwm_f/view?usp=sharing" target="_blank">CV</a></li>
+                </ul>
             </section>
 
             <section id="hobbies">
-                <h2 class="Titulo-hobbies">Hobbies</h2>
+                <h2 class="titulo-lista">Hobbies</h2>
                 <ul class="Lista-Hobbies">
                     <li>
                         <img src="Imagenes/Hobbies/EscucharMusica.png" alt="Excucgar Música">
@@ -77,7 +79,7 @@
             </section>
 
             <section id="skills">
-                <h2 class="titulo-skills">Skills</h2>
+                <h2 class="titulo-lista">Skills</h2>
                 <ul class="lista-skills">
                     <li>
                         <img src="Imagenes/Skills/C.png" alt="Programación en C#">
@@ -101,18 +103,54 @@
 
             </section>
             
-            <section id="formacion">
-                
+            <section id="formacion-academica">
+                <h2 class="titulo-lista">Formación Académica</h2>
+                <div class="formaciones">
+                    <div class="formacion">
+                        <img class="formacion__imagen" src="./Imagenes/Formacion/UAI.png" alt="Logo UAI">
+                        <span class="formacion__descripcion">Título Analista en Sistemas de Información 2016 - UAI</span>
+                    </div>
+                    <div class="formacion">
+                        <img class="formacion__imagen" src="./Imagenes/Formacion/IBM.png">
+                        <span class="formacion__descripcion">Calificación académica otorgada por IBM en modelado de sistemas orientados a objetos
+                            con Rational</span>
+                    </div>
+                    <div class="formacion">
+                        <img class="formacion__imagen" src="./Imagenes/Formacion/UTN.png">
+                        <span class="formacion__descripcion">Curso de armado, mantenimiento y reparación de PC y redes.</span>
+                    </div>
+                    <div class="formacion">
+                        <img class="formacion__imagen" src="./Imagenes/Formacion/clec.png">
+                        <span class="formacion__descripcion">Inglés: Finalizado el 4to año en el Cursos de Lenguas Extranjeras a la Comunidad.</span>
+                    </div>
+                    <div class="formacion">
+                        <img class="formacion__imagen" src="./Imagenes/Formacion/Alura.png">
+                        <span class="formacion__descripcion">Formación principiante en programación - ONE</span>
+                    </div>
+                    <div class="formacion">
+                        <img class="formacion__imagen" src="./Imagenes/Formacion/Alura.png">
+                        <span class="formacion__descripcion">Formación Business Agility - ONE</span>
+                    </div>
+                </div>
+        
             </section>
             <section id="proyectos">
-
+                <h2 class="titulo-lista">Experiencia en programación</h2>
+                <p>Programa que encripta y desencripta un texto de acuerdo a parametros establecidos; fue realizado utilizando HTML, CSS y Javascript.</p>
+                <img  class="imagen-encriptador" src="./Imagenes/Encriptador.jpg" alt="Encriptador">
+                <h3>Decodificador de texto</h3>
+                <h4>Challenge Alura decodificador</h4>
+                
             </section>
             <section id="contacto">
-
+                <h2 class="titulo-lista">Contacto</h2>
+                <img class="imagen-contacto" src="Imagenes/Contacto.jpg" alt="Contacto">
+                
             </section>
         </main>
-        <footer class="pie">
-            <p class="copyright">&copy Copyright Guillermo Tritto Alura - 2022</p>
-        </footer>
+       
     </body>
+    <footer class="pie">
+        <p class="copyright">&copy Copyright Guillermo Tritto Alura - 2022</p>
+    </footer>
 </html>

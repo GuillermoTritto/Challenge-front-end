@@ -81,13 +81,24 @@ main
     font-style: italic;
 }
 
-.btnCurriculo
+.social
 {
-    background-color: #007bff;
-    color: white;
-    margin: 1em 75%;
+    margin: 0 40%;
+}
+
+.social li
+{
+    display: inline-block;
     border: none;
-    padding: 3px 8px;
+    margin: 1em;
+    text-align: center;
+}
+
+.social a
+{
+    text-decoration: none;
+    color: #17a2b8;;
+    font-style: italic;
 }
 
 #hobbies
@@ -96,7 +107,7 @@ main
     
 }
 
-.Titulo-hobbies
+.titulo-lista
 {
     color: black;
     font-weight: bold;
@@ -157,14 +168,6 @@ main
     
 }
 
-.titulo-skills
-{
-    color: black;
-    font-weight: bold;
-    font-size: 2em;
-    text-align: center;
-    padding: 15px 0;
-}
 
 .lista-skills
 {
@@ -201,6 +204,36 @@ main
     width: 70%;
 }
 
+
+
+
+#proyectos p
+{
+    padding: 1em;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.imagen-encriptador
+{
+    width: 100%;
+}
+
+#proyectos h3
+{
+    padding: 0.5;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#proyectos h4
+{
+    padding: 0.5;
+    font-size: 1.1em;
+    text-align: center;
+}
 
 .pie
 {   
