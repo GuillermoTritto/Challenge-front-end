@@ -1,6 +1,6 @@
 .cabecera
 {
-    width: 940px;
+   
     position: relative;
     margin: 0 auto;
     padding: 20px 0;
@@ -37,3 +37,36 @@
     font-size: 13px;
     font-weight: bold;
 }
+
+@media screen and (min-width: 0) {
+    .cabecera
+    {
+       width: auto;
+       
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .cabecera
+    {
+        width: 940px;
+    }   
+}
+
+@media screen and (min-width: 0) {
+    .cabecera__imagen 
+    {
+       display: none;
+       
+    }
+}
+
+@media screen and (min-width: 0) {
+    .cabecera__imagen 
+    {
+       display: block;
+       
+    }
+}
+
