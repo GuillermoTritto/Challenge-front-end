@@ -1,0 +1,45 @@
+.Lista-Hobbies
+{
+    padding: 1.5em;
+}
+
+.Lista-Hobbies li
+{
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 0.5%;
+    padding: 30px 1em;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: #f8f9fa;
+    
+}
+
+.Lista-Hobbies li:hover
+{
+    border-color:  #dc3545;
+    background: lightcyan;
+}
+
+.Lista-Hobbies li img
+{
+    width: 30%;
+    
+}
+
+.Lista-Hobbies li p
+{
+    font-style: italic;
+}
+
+.Lista-Hobbies li:hover img
+{
+    width: 35%;
+}
+
+.Lista-Hobbies li:hover p
+{
+    font-weight: bold;
+}
