@@ -1,0 +1,30 @@
+.skills__lista
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.skills__lista__item
+{
+    height: 110px;
+    width: 130px;
+	background-color: #FFF;
+	text-align: center;
+	margin: 1%;
+	transition: .3s;
+    border: solid 2px black;
+    border-radius: 20px;
+	position: relative;
+}
+
+
+.skills__lista__item:hover
+{
+    border-color:  #dc3545;
+    background: lightcyan;
+    height: 120px;
+    width: 140px;
+}
+
