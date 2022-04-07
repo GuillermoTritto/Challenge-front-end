@@ -11,6 +11,8 @@
         <link rel="stylesheet" href="css/hobbies.css">
         <link rel="stylesheet" href="css/skills.css">
         <link rel="stylesheet" href="css/proyectos.css">
+        <link rel="stylesheet" href="css/contacto.css">
+        
         
     </head>
 
@@ -145,20 +147,29 @@
                     <div class="proyectos__encriptador__repositorio">
                     <p class="proyectos__encriptador__repositorio__titulo">Decodificador de texto<p>
                     <p class="proyectos__encriptador__repositorio__descripcion">Challenge Alura para crear un codificador y decodificador de texto, utilizando lo aprendido durante la formación. Se utilizan html para crar la página, css para los estilos y javascript para validar el ingreso de caracteres y realizar las función de codificar y decodificar el texto ingresado <p>
-                    <ul class="proyectos__encriptador__botones">
-                        <li class="proyectos__encriptador__botones__item">
-                            <a class="proyectos__encriptador__botones__repositorio" href="#">Repositorio</a>
-                        </li>
-                        <li class="proyectos__encriptador__botones__item">
-                            <a class="proyectos__encriptador__botones__demo" href="#">Ver demo</a>
-                        </li>
-                    </ul>
+                     <div class="proyectos__encriptador__botones">
+                        <button class="boton__repositorio" onclick= "location.href='https://github.com/GuillermoTritto/alura-challenge'" target="_blank">Repositorio</button>
+                        <button class="boton__demo" onclick= "location.href='https://guillermotritto.github.io/alura-challenge/'" target="_blank">Ver demo</button>
+                     </div> 
                     </div>
                 </div>
             </section>
-            <section id="contacto">
-                <h2 class="titulo-lista">Contacto</h2>
-                <img class="imagen-contacto" src="Imagenes/Contacto.jpg" alt="Contacto">
+            <section id="contacto"> 
+                <div class="contacto__container">
+                    <img class="contacto__imagen" src="Imagenes/Contacto.jpg" alt="Contacto">
+                    <form class="formulario__contacto">
+                        <h2 class="titulo-lista">Contacto</h2>
+                        <p>Quieres contactarme?</p>
+                        <p>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible</p>
+                        <section class="formulario__container">
+                        <input type="text" class="formulario__input__padron" id="frm__nombre" placeholder="Nombre">
+                        <input type="text" class="formulario__input__padron" id="frm__mail" placeholder="Email">
+                        <input type="text" class="formulario__input__padron" id="frm__asunto" placeholder="Asunto">
+                        <textarea cols="40" rows="10" class="formulario__input__padron" id="frm__mensaje" placeholder="Mensaje"></textarea>
+                        </section>
+                        <input type="submit" value="Enviar mensaje" class="formulario__boton">
+                    </form>
+                </div>  
                 
             </section>
         </main>

@@ -27,27 +27,23 @@
 
 .proyectos__encriptador__botones
 {
-    margin-top: 1rem;
+    margin: 1rem 0 0 2rem;
 }
 
-.proyectos__encriptador__botones__item
-{
-    display: inline;
-    border: 2px solid #428bca;
-    padding: 0 1rem;
-    margin: 0 0 0 2rem;
-}
-
-.proyectos__encriptador__botones__repositorio
+.boton__repositorio
 { 
-    text-decoration: none;
+    border: 2px solid #428bca;
     color: #428bca;
     background: white;
+    width: 90px;
+    height: 35px;
 }
 
-.proyectos__encriptador__botones__demo
+.boton__demo
 {
-    text-decoration: none;
+    border: 2px solid #428bca;
     color: white;
     background: #428bca;
+    width: 90px;
+    height: 35px;
 }

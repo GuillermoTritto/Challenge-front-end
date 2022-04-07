@@ -1,0 +1,47 @@
+.contacto__container
+{
+    display: flex;
+
+}
+
+.formulario__contacto .titulo-lista
+{
+    text-align: left;
+    margin: 1rem;
+}
+
+.formulario__contacto p
+{
+   margin-left: 1rem;
+}
+
+.formulario__container
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario__input__padron
+{
+    padding: .3rem;
+    margin: 1rem;
+
+}
+
+.formulario__boton
+{
+    background-color: #428bca;
+    color: white;
+    border: solid #428bca;
+    margin: 1rem;
+    height: 35px;
+}
+
+.formulario__input__padron::placeholder
+{
+    font-size: 10px;
+    text-align: end;
+    color: #428bca;
+
+}
+
