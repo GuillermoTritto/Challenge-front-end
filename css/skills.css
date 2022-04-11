@@ -1,22 +1,36 @@
-.skills__lista
+.skills
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-
+    justify-content: space-between;
 }
 
-.skills__lista__item
+.skill
 {
-    height: 110px;
-    width: 130px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 290px;
 	background-color: #FFF;
-	text-align: center;
-	margin: 1%;
+	margin: 4%;
 	transition: .3s;
-    border: solid 2px black;
-    border-radius: 20px;
+	box-shadow: 2px 2px 2px #CCC;
 	position: relative;
+    width: 25%;
+    align-items: center;
+    transition: 1s;
+    justify-content: space-around;
 }
 
+.skill__imagen
+{
+    height: 200px;
+    width: 200px;
+}
+
+.skill:hover
+{
+    box-shadow: none;
+}
 
