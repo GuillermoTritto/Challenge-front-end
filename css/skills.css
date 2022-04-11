@@ -20,11 +20,3 @@
 }
 
 
-.skills__lista__item:hover
-{
-    border-color:  #dc3545;
-    background: lightcyan;
-    height: 120px;
-    width: 140px;
-}
-

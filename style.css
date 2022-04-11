@@ -6,6 +6,12 @@ main
     background: #F2F5F7;
 }
 
+.container
+{
+    width: 94%;
+    margin: 0 auto;
+}
+
 .foto-perfil
 {
     width: 15%;

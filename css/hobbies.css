@@ -23,29 +23,12 @@
 
 }
 
-.hobbies__lista__item:hover
-{
-    border-color:  #dc3545;
-    background: lightcyan;
-    
-}
-
-.hobbies__lista__item:hover .hobbies__lista__item__imagen
-{
-    width: 80%;
-}
-
 .hobbies__lista__item__nombre
 {
     font-style: italic;
 }
 
 
-
-.hobbies__lista__item__nombre:hover
-{
-    font-weight: bold;
-}
 
 
 
