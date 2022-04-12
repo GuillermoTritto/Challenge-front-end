@@ -39,3 +39,17 @@
 .formacion:hover{
     box-shadow: none;
 }
+
+@media screen and (max-width: 768px)
+{
+    .formaciones
+    {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .formacion
+    {
+        width: 100%;
+    }
+}
