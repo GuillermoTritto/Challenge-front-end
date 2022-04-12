@@ -1,16 +1,12 @@
-.proyectos__encriptador
+.proyectos
 {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.proyectos__encriptador__imagen
-{
-    width: 65%;
-}
 
-.proyectos__encriptador__repositorio__titulo
+.proyecto__encriptador__titulo
 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -18,10 +14,10 @@
     margin-left: 4rem;
 }
 
-.proyectos__encriptador__repositorio__descripcion
+.proyecto__encriptador__descripcion
 {
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
     font-size: 14px;
 }
 
@@ -30,20 +26,47 @@
     margin: 1rem 0 0 2rem;
 }
 
-.boton__repositorio
-{ 
-    border: 2px solid #428bca;
-    color: #428bca;
+.proyecto__encriptador__boton__repositorio
+{
+    width: 79px;
+    height: 20px;
     background: white;
-    width: 90px;
-    height: 35px;
+    border: 2px solid #428bca;
+    margin: 1rem 0 0 1.5rem;
+    display: inline-block;
 }
 
-.boton__demo
+.proyecto__encriptador__boton__repositorio a
 {
-    border: 2px solid #428bca;
-    color: white;
+    text-decoration: none;
+    color: #428bca;
+}
+
+.proyecto__encriptador__boton__demo
+{
+    width: 79px;
+    height: 20px;
     background: #428bca;
-    width: 90px;
-    height: 35px;
+    border: 2px solid #428bca;
+    display: inline;
+}
+
+.proyecto__encriptador__boton__demo a
+{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 768px) 
+    {
+        .proyectos
+        {
+            flex-direction: column;
+            
+        }
+
+        .proyecto__encriptador__imagen
+        {
+            width: 100%;
+        }
 }
