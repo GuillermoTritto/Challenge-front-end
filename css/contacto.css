@@ -1,7 +1,9 @@
 .contacto__container
 {
     display: flex;
-
+    padding: 2rem 0;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .formulario__contacto .titulo-lista
@@ -43,5 +45,18 @@
     text-align: end;
     color: #428bca;
 
+}
+
+@media (max-width: 768px) 
+{
+    .contacto__container
+    {
+        flex-direction: column;
+    }
+
+    .contacto__imagen
+    {
+        display: none;
+    }
 }
 
