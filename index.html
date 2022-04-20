@@ -172,10 +172,10 @@
                         <p>Quieres contactarme?</p>
                         <p>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible</p>
                         <section class="formulario__container">
-                        <input type="text" class="formulario__input__padron" id="frm__nombre" placeholder="Nombre">
-                        <input type="text" class="formulario__input__padron" id="frm__mail" placeholder="Email">
-                        <input type="text" class="formulario__input__padron" id="frm__asunto" placeholder="Asunto">
-                        <textarea cols="40" rows="10" class="formulario__input__padron" id="frm__mensaje" placeholder="Mensaje"></textarea>
+                        <input type="text" class="formulario__input__padron" id="frm__nombre" placeholder="Nombre" onchange="validarNombre()" data-form-nombre>
+                        <input type="text" class="formulario__input__padron" id="frm__mail"  placeholder="Email">
+                        <input type="text" class="formulario__input__padron" id="frm__asunto"  placeholder="Asunto">
+                        <textarea cols="40" rows="10" class="formulario__input__padron" id="frm__mensaje"  placeholder="Mensaje"></textarea>
                         </section>
                         <input type="submit" value="Enviar mensaje" class="formulario__boton">
                     </form>
@@ -188,4 +188,5 @@
     <footer class="pie">
         <p class="copyright">&copy Copyright Guillermo Tritto Alura - 2022</p>
     </footer>
+    <script src="components/validarNombre.js"></script>
 </html>
