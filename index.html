@@ -172,10 +172,30 @@
                         <p>Quieres contactarme?</p>
                         <p>Complete el siguiente formulario y me pondré en contacto con usted lo antes posible</p>
                         <section class="formulario__container">
-                        <input type="text" class="formulario__input__padron" id="frm__nombre" placeholder="Nombre" onchange="validarNombre()" data-form-nombre>
-                        <input type="text" class="formulario__input__padron" id="frm__mail"  placeholder="Email">
-                        <input type="text" class="formulario__input__padron" id="frm__asunto"  placeholder="Asunto">
-                        <textarea cols="40" rows="10" class="formulario__input__padron" id="frm__mensaje"  placeholder="Mensaje"></textarea>
+                            <div class="input__container">
+                                <input name="frm__nombre" id="frm__nombre"  type="text" class="formulario__input__padron" placeholder="Nombre" required data-tipo="nombre">
+                                <label class="input__label" for="frm__nombre">Nombre</label>
+                                <span class="input__mensaje__error">Este campo no es válido</span>
+                            </div>
+
+                            <div class="input__container">
+                                <input name="frm__mail" id="frm__mail" type="text" class="formulario__input__padron" placeholder="Email" required data-tipo="email">
+                                <label class="input__label" for="frm__mail">email</label>
+                                <span class="input__mensaje__error">Este campo no es válido</span>
+                            </div>
+
+                            <div class="input__container">
+                                <input name="frm__asunto" id="frm__asunto" type="text" class="formulario__input__padron" placeholder="Asunto" required data-tipo="asunto">
+                                <label class="input__label" for="frm__asunto">Asunto</label>
+                                <span class="input__mensaje__error">Este campo no es válido</span>
+                            </div>
+
+                            <div class="input__container">
+                                <textarea name="frm__mensaje" id="frm__mensaje" cols="40" rows="10" class="formulario__input__padron" placeholder="Mensaje" required data-tipo="mensaje"></textarea>
+                                <label class="input__label" for="frm__mensaje">Mensaje</label>
+                                <span class="input__mensaje__error">Este campo no es válido</span>
+                            </div>
+                           
                         </section>
                         <input type="submit" value="Enviar mensaje" class="formulario__boton">
                     </form>
